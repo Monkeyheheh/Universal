@@ -1,0 +1,8 @@
+local StarterGui = game:GetService("StarterGui")
+
+wait(3)
+StarterGui:SetCore("SendNotifcation", {
+    Title = "The upgrade is still in progress",
+    Text = "its in progress wait a week",
+    Duration = 7
+})
