@@ -1,4 +1,4 @@
-ocal StarterGui = game:GetService("StarterGui")
+local StarterGui = game:GetService("StarterGui")
 
 wait(3)
 StarterGui:SetCore("SendNotifcation", {
