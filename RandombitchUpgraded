@@ -1,0 +1,8 @@
+local StarterGui = game:GetService("StarterGui")
+
+wait(3)
+StarterGui:SetCore("SendNotifcation", {
+    Title = "This script is getting an upgrade",
+    Text = "This script is gonna be down for a week or so",
+    Duration = 7
+})
