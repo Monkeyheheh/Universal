@@ -5,7 +5,6 @@ local Window = Library.CreateLib("c0rupted hub", "BloodTheme")
 local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Main")
 
-MainSection:NewLabel("")
 MainSection:NewButton("infinite yield", "gives admin", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
